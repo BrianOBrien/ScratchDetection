@@ -1,0 +1,10 @@
+D:\Development\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.exe
+D:\Development\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.pdb
+D:\Development\ScratchDetection\ScratchDetection\bin\Debug\ScratchDetection.exe.config
+D:\Development\ScratchDetection\ScratchDetection\bin\Debug\ScratchDetection.exe
+D:\Development\ScratchDetection\ScratchDetection\bin\Debug\ScratchDetection.pdb
+D:\Development\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.csproj.AssemblyReference.cache
+D:\Development\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.Form1.resources
+D:\Development\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.Properties.Resources.resources
+D:\Development\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.csproj.GenerateResource.cache
+D:\Development\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.csproj.CoreCompileInputs.cache

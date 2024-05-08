@@ -1,0 +1,16 @@
+C:\Documents and Settings\bobrien\My Documents\Visual Studio 2005\Projects\ScratchDetection\ScratchDetection\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\bobrien\My Documents\Visual Studio 2005\Projects\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.Form1.resources
+C:\Documents and Settings\bobrien\My Documents\Visual Studio 2005\Projects\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.Properties.Resources.resources
+C:\Documents and Settings\bobrien\My Documents\Visual Studio 2005\Projects\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.csproj.GenerateResource.Cache
+C:\Documents and Settings\bobrien\My Documents\Visual Studio 2005\Projects\ScratchDetection\ScratchDetection\bin\Debug\ScratchDetection.exe
+C:\Documents and Settings\bobrien\My Documents\Visual Studio 2005\Projects\ScratchDetection\ScratchDetection\bin\Debug\ScratchDetection.pdb
+C:\Documents and Settings\bobrien\My Documents\Visual Studio 2005\Projects\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.exe
+C:\Documents and Settings\bobrien\My Documents\Visual Studio 2005\Projects\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.pdb
+C:\Documents and Settings\Administrator\Desktop\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.exe
+C:\Documents and Settings\Administrator\Desktop\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.pdb
+C:\Documents and Settings\Administrator\Desktop\ScratchDetection\ScratchDetection\bin\Debug\ScratchDetection.exe
+C:\Documents and Settings\Administrator\Desktop\ScratchDetection\ScratchDetection\bin\Debug\ScratchDetection.pdb
+C:\Documents and Settings\Administrator\Desktop\ScratchDetection\ScratchDetection\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.Form1.resources
+C:\Documents and Settings\Administrator\Desktop\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\ScratchDetection\ScratchDetection\obj\Debug\ScratchDetection.csproj.GenerateResource.Cache

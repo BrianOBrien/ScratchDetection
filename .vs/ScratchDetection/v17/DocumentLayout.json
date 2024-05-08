@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Development\\ScratchDetection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ScratchDetection||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9CD449-EC6F-480A-B3D2-3891D955A51D}|ScratchDetection\\ScratchDetection.csproj|d:\\development\\scratchdetection\\scratchdetection\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{0B9CD449-EC6F-480A-B3D2-3891D955A51D}|ScratchDetection\\ScratchDetection.csproj|solutionrelative:scratchdetection\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 116,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScratchDetection",
+              "DocumentMoniker": "D:\\Development\\ScratchDetection\\ScratchDetection\\ScratchDetection.csproj",
+              "RelativeDocumentMoniker": "ScratchDetection\\ScratchDetection.csproj",
+              "ToolTip": "D:\\Development\\ScratchDetection\\ScratchDetection\\ScratchDetection.csproj",
+              "RelativeToolTip": "ScratchDetection\\ScratchDetection.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-08T20:33:53.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
