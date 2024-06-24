@@ -195,7 +195,13 @@ namespace ScratchDetection
                             p = p / rInc;
 
                             j = round(p);
-                            A[i, j] += 1; // (double)weight;
+                            if (i <= A.GetUpperBound(0) && j <= A.GetUpperBound(1)) {
+                                A[i, j] += 1; // (double)weight;
+                            }
+                            else
+                            {
+                                //Log error?
+                            }
                         }
                     }
                 }

@@ -50,13 +50,16 @@ namespace ScratchDetection
             DetectedPicture.Size = new Size(w - HoughPicture.Right - (2*_margin), pboxH);
             this.ResumeLayout();
         }
+        //I believe if you set the InitialDirectory, the app will always start here,
+        //but you may wish the OS to remember this location for the user, i think it is best
+        //left blank.
         private void OriginalPicture_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
   
-            openFileDialog1.InitialDirectory = "c:\\";
-            openFileDialog1.Filter = "bmp files (*.bmp)|*.bmp";
-            openFileDialog1.FilterIndex = 2;
+            //openFileDialog1.InitialDirectory = "c:\\";
+            openFileDialog1.Filter = "bmp files (*.bmp)|*.bmp|jpg files (*.jpg)|*.jpg|anything else (*.*)|*.*";
+            openFileDialog1.FilterIndex = 1;
             openFileDialog1.RestoreDirectory = true;
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
@@ -73,8 +76,8 @@ namespace ScratchDetection
         {            
             double threshold;
             threshold = (float)ScratchThresholdTracker.Value;
-            threshold *= 441.67295593006 / 100.0;
-            return threshold;
+            threshold *= 441.67295593006 / 100.0; //No idea now where this constant came from.
+            return threshold; // Might it be something to do with the dimensions of the slider itself on the UI?
         }
 
         private void ScratchThresholdTracker_Scroll(object sender, EventArgs e)
@@ -87,14 +90,14 @@ namespace ScratchDetection
         private void ComputeHoughTransform_Click(object sender, EventArgs e)
         {
             List<line> lines = new List<line>();
-            Color c = Color.FromArgb(255, 255, 0, 0);
+            Color c = Color.FromArgb(255, 255, 255, 0);
 
             HoughImage = ip.ForwardHoughTransform((Bitmap)ThresholdImage);
             HoughPicture.Image = HoughImage;
 
             DetectedImage = (Bitmap)OriginalImage.Clone();
             ip.InverseHoughTransform(lines);
-            //MessageBox.Show("Found " + lines.Count.ToString() + " scratches.");
+            MessageBox.Show("Found " + lines.Count.ToString() + " scratches.");
             foreach (line l in lines)
                 l.DrawLine(DetectedImage, c, getScratchThreshold() / 2);
             DetectedPicture.Image = DetectedImage;
